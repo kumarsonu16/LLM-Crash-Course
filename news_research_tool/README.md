@@ -24,7 +24,7 @@ RockyBot is a user-friendly news research tool designed for effortless informati
 2.Navigate to the project directory:
 
 ```bash
-  cd 2_news_research_tool_project
+  cd news_research_tool/project
 ```
 3. Install the required dependencies using pip:
 
