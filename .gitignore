@@ -1,2 +1,47 @@
-.idea/*
+# Ignore all 'venv' folders at any level of nesting
+**/venv/
+
+# Ignore Python cache files and folders
 __pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment files
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Ignore logs and debugging files
+*.log
+logs/
+
+# Ignore Jupyter Notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Ignore build and distribution folders
+/build/
+/dist/
+*.egg-info/
+**/build/
+**/dist/
+**/*.egg-info/
+
+# Ignore IDE and editor settings (optional)
+.idea/
+.vscode/
+*.swp
+
+# Ignore temporary files and directories
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Ignore vectored files
+
+**/vectorstore/**

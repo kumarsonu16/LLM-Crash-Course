@@ -1,2 +1,5 @@
 1. Restaurant-generator
 2. News-research-tool
+3. sqldb_tshirts
+4. linkedin-post-generator
+5. Cold-email-generator
